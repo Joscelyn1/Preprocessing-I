@@ -165,4 +165,16 @@ header nav a {
 main article section h4 {
   font-size: 1.2rem;
   padding: 1rem 0rem;
+  border-bottom: 0.01rem solid lightgray;
+}
+main article section p {
+  padding: 1rem 0rem;
+}
+main article section button {
+  background-color: #808080;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  align-items: center;
+  font-weight: bold;
 }
