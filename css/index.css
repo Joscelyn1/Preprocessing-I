@@ -187,10 +187,30 @@ main article section button {
 }
 .row2 .listenUp {
   width: 50%;
+  padding-right: 1rem;
 }
 .row2 .listenUp h2 {
   font-size: 2.5rem;
 }
 .row2 .listenUp p {
   padding: 1rem 0rem;
+}
+.row2 aside {
+  width: 50%;
+  padding-left: 1rem;
+}
+.row2 aside h3 {
+  font-size: 1.9rem;
+  padding-bottom: 0.5rem;
+}
+.row2 aside ul {
+  border: 0.2em solid lightgray;
+}
+.row2 aside ul li {
+  font-size: 1.2rem;
+  border-bottom: 0.2rem solid lightgray;
+  padding: 1rem;
+}
+.row2 aside ul li:last-child {
+  border-bottom: none;
 }
