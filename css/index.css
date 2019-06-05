@@ -214,3 +214,38 @@ main article section button {
 .row2 aside ul li:last-child {
   border-bottom: none;
 }
+.lightGray {
+  background-color: #F2F2F2;
+}
+.workHistory {
+  padding: 1rem 0rem 3rem 0rem;
+}
+.workHistory h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.workHistory table {
+  width: 100%;
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: left;
+}
+.workHistory table tr th {
+  font-weight: bold;
+  padding: 1rem;
+}
+.workHistory table tr td {
+  padding: 1rem;
+}
+footer {
+  display: flex;
+  background-color: #808080;
+  justify-content: center;
+  padding: 1rem 0rem 4rem 0rem;
+}
+footer small {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+}
