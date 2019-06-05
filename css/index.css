@@ -126,6 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a {
+  text-decoration: none;
+}
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
@@ -133,4 +136,15 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+  font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+}
+header nav a {
+  padding: 0.25rem;
+  color: inherit;
 }
