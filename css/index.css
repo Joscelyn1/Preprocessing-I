@@ -241,7 +241,7 @@ main article section button {
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 80%;
-    margin-right: none;
+    margin-right: 0rem;
     /* broken  */
   }
 }
@@ -261,7 +261,7 @@ main article section button {
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 80%;
-    margin-left: none;
+    margin-left: 0rem;
     /* broken  */
   }
 }
