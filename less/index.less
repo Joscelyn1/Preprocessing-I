@@ -87,6 +87,18 @@ header nav {
 	font-size: 1.4rem;
 	padding: 0.5rem;
 	
+	/* tablet */
+	@media(max-width: 800px) {
+		display: flex;
+		justify-content: center;
+	}
+	/* phone */
+	@media(max-width: 500px) {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
 	a {
 		padding: 1rem;
 		color: inherit;
@@ -96,11 +108,28 @@ header nav {
 .aboutMe {
 	background-color: @lightBlueGray;
 	padding: 5rem 3rem;
+	display: flex;
+	flex-direction: column;
+	/* tablet */
+	@media(max-width: 800px) {
+		text-align: center;
+	}
+
+
+	.picture {
+		width: 20rem;
+		/* tablet */
+		@media(max-width: 800px) {
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+
+	}
 }
 
-.picture {
-	width: 20rem;
-}
+
+
 
 main article section {
 	h4 {
@@ -203,4 +232,9 @@ footer {
 		color: white;
 		font-size: 1.2rem;
 	}
+}
+
+@media( 767px) {
+
+
 }

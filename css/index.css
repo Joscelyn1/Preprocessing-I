@@ -153,6 +153,21 @@ header nav {
   justify-content: flex-end;
   font-size: 1.4rem;
   padding: 0.5rem;
+  /* tablet */
+  /* phone */
+}
+@media (max-width: 800px) {
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 header nav a {
   padding: 1rem;
@@ -161,9 +176,24 @@ header nav a {
 .aboutMe {
   background-color: #E9ECEF;
   padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  /* tablet */
 }
-.picture {
+@media (max-width: 800px) {
+  .aboutMe {
+    text-align: center;
+  }
+}
+.aboutMe .picture {
   width: 20rem;
+  /* tablet */
+}
+@media (max-width: 800px) {
+  .aboutMe .picture {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 main article section h4 {
   font-size: 1.2rem;
