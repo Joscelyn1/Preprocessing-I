@@ -148,6 +148,10 @@ h1 {
 p {
   font-size: 1.2rem;
 }
+.justifyFlex {
+  display: flex;
+  justify-content: center;
+}
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -306,8 +310,8 @@ main article section button {
 }
 footer {
   display: flex;
-  background-color: #808080;
   justify-content: center;
+  background-color: #808080;
   padding: 1rem 0rem 4rem 0rem;
 }
 footer small {
